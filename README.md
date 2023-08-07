@@ -54,7 +54,7 @@ Untuk menjalankan script, Anda memerlukan akun Instagram dan mempersiapkan `user
 
 ## How It Works?
 Secara garis besar, teknik web scraping adalah proses automasi pengambilan informasi di halaman web menggunakan script. Pada kasus ini sama, namun ada beberapa tambahan ekstra (bukan hanya sekedar mengambil informasi dari tag HTML), tetapi dengan menggunakan API dan menggerakan cursor dan penggunaan keyboard. Mengapa? beberapa informasi sulit untuk diekstrak, seperti user feeds. Oleh sebab itu, dengan memanggil API dan copy-paste dari hidden API Instagram dengan proses automasi mouse dan keyboard. Sehingga, teknik pengambilan informasi jadi lebih efektif dan efisien. 
-> Perlu diingat, proses hidden API ini tidak untuk sembarangan dipergunakan
+> Perlu diingat, informasi yang ada di hidden API Instagram tidak boleh sembarangan dipergunakan
 
 ## Disclaimer
 Saya menggunakan resolusi layar 1920x1080. Mungkin di beberapa komputer tidak bisa di execute, pastikan versi-versi nya sesuai. Juga beberapa resolusi mempengaruhi keberhasilan script. Jika terdapat missclick oleh script/program, Anda dapat mengganti posisi/koordinat cursor pada variable `position` yaitu sebuah dictionary. Untuk mendapatkan posisi cursor, anda dapat memanggil fungsi `get_mouse_position()`.
