@@ -49,4 +49,4 @@ Untuk menjalankan script, Anda memerlukan akun Instagram dan mempersiapkan `user
 7. It's safe to click `run all`
 
 ## Disclaimer
-Saya menggunakan resolusi layar 1920x1080. Mungkin di beberapa komputer tidak bisa di execute, pastikan versi-versi nya sesuai. Juga beberapa resolusi mempengaruhi keberhasilan script. Jika terdapat missclick oleh script/program, Anda dapat mengganti posisi/koordinat mouse pada variable `position` yaitu sebuah dictionary. Untuk mendapatkan posisi cursor, anda dapat menggunakan fungsi `get_mouse_position()`.
+Saya menggunakan resolusi layar 1920x1080. Mungkin di beberapa komputer tidak bisa di execute, pastikan versi-versi nya sesuai. Juga beberapa resolusi mempengaruhi keberhasilan script. Jika terdapat missclick oleh script/program, Anda dapat mengganti posisi/koordinat cursor pada variable `position` yaitu sebuah dictionary. Untuk mendapatkan posisi cursor, anda dapat menggunakan fungsi `get_mouse_position()`.
