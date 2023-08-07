@@ -1,5 +1,7 @@
-# Instagram Web Scraping With Selenium
+# Terima Kasih
+Terima kasih kepada PT Data Labs Analytics yang telah memberikan kesempatan kepada kami untuk dapat melaksanakan Internship di tempat ini. Berikut merupakan repository dokumentasi proyek saya dengan rekan saya Renata Valencia yaitu mengambil data Instagram dengan teknik Web Scraping. 
 
+# Instagram Web Scraping With Selenium
 
 ![Instagram logo](instagram-logo.jpg)
 
@@ -26,8 +28,9 @@ Ada beberapa hal yang perlu diperhatikan ketika menjalankan ini. Pastikan Anda m
 ```
 Untuk dapat melakukan Web Scraping, Anda perlu mendownload Chrome Driver (untuk kasus ini, saya melakukan scraping menggunakan Google Chrome). Lalu kemudian, letakkan pada lokasi berikut:
 ```
-"C:/SeleniumDrivers/chromedriver.exe"
+C:/SeleniumDrivers/chromedriver.exe
 ```
+
 Silahkan membuat file baru di system `C:` dengan nama `SeleniumDrivers`.
 Download versi Chrome Driver yang sesuai dengan versi Google Chrome Anda.<br>
 
@@ -48,5 +51,9 @@ Untuk menjalankan script, Anda memerlukan akun Instagram dan mempersiapkan `user
 6. Set the VS Code and 4th position on your taskbar, so it's able to press `win + 4` and the Chrome on 5th `win + 5`.
 7. It's safe to click `run all`
 
+
+## How It Works?
+
+
 ## Disclaimer
-Saya menggunakan resolusi layar 1920x1080. Mungkin di beberapa komputer tidak bisa di execute, pastikan versi-versi nya sesuai. Juga beberapa resolusi mempengaruhi keberhasilan script. Jika terdapat missclick oleh script/program, Anda dapat mengganti posisi/koordinat cursor pada variable `position` yaitu sebuah dictionary. Untuk mendapatkan posisi cursor, anda dapat menggunakan fungsi `get_mouse_position()`.
+Saya menggunakan resolusi layar 1920x1080. Mungkin di beberapa komputer tidak bisa di execute, pastikan versi-versi nya sesuai. Juga beberapa resolusi mempengaruhi keberhasilan script. Jika terdapat missclick oleh script/program, Anda dapat mengganti posisi/koordinat cursor pada variable `position` yaitu sebuah dictionary. Untuk mendapatkan posisi cursor, anda dapat memanggil fungsi `get_mouse_position()`.
